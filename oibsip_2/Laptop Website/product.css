@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image {
+    float: right;
+    display: flex;
+    position: relative;
+}
+
+.drop {
+    padding-left: 100px;
+    padding-top: 90px;
+    border-radius: 10px;
+}
+
+.para1 {
+    padding-left: 100px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+.purchase-info {
+    margin: 1.5rem 0;
+    padding-left: 100px;
+}
+
+.purchase-info .btn {
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.purchase-info .btn:first-of-type {
+    background-color: blue;
+}
+
+.purchase-info .btn:last-of-type {
+    background-color: green;
+}
+
+.purchase-info .btn:hover {
+    opacity: 0.9;
+}
+
+h1 {
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+h4 {
+    padding-left: 100px;
+    padding-top: 50px;
+    font-size: 26px;
+}
+
+.image2 {
+    float: left;
+    display: flex;
+    position: relative;
+}
+
+.head1 {
+    float: right;
+    padding-right: 290px;
+    padding-top: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.shop {
+    float: right;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+
+.shop:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h3 {
+    float: right;
+    padding-right: 240px;
+    padding-top: 20px;
+    font-size: 26px;
+}
+
+.content2 a {
+    float: right;
+    padding-right: 220px;
+    padding-top: 20px;
+}
+
+.para2 {
+    float: right;
+    padding-right: 140px;
+    padding-top: 10px;
+}
+
+.image3 {
+    float: right;
+    display: flex;
+    padding-top: 120px;
+}
+
+.head2 {
+    float: left;
+    padding-left: 180px;
+    padding-top: 110px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.envio {
+    float: left;
+    padding-left: 140px;
+    padding-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.para3 {
+    float: left;
+    padding-left: 140px;
+    padding-top: 10px;
+}

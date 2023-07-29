@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    background-color: #eee;
+    padding: 15px;
+    width: 1350px;
+}
+
+.nav1 {
+    padding-left: 150px;
+    font-size: 20px;
+}
+
+.nav2 {
+    padding-left: 350px;
+    font-size: 20px;
+}
+
+.nav3 {
+    padding-left: 360px;
+    font-size: 20px;
+}
+
+div.nav1 {
+    border-style: none dotted none none;
+    margin: 10px;
+    padding: 10px;
+    right: 55.5%;
+    position: absolute;
+}
+
+div.nav2 {
+    border-style: none dashed none none;
+    margin: 10px;
+    padding: 10px;
+    right: 66%;
+    position: absolute;
+}
+
+.purchase-info {
+    margin: 1.5rem 0;
+    padding-left: 20px;
+}
+
+.purchase-info .btn {
+    border: 1.5px solid #ddd;
+    border-radius: 100px;
+    text-align: center;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    justify-content: center;
+    width: 150px;
+}
+
+.purchase-info .btn:first-of-type {
+    background-color: darkblue;
+}
+
+.purchase-info .btn:last-of-type {
+    background-color: green;
+}
+
+.purchase-info .btn:hover {
+    opacity: 0.9;
+}
+
+.box1 {
+    background-color: #eee;
+    border: 2px solid ease;
+    width: 250px;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.box2 {
+    background-color: #eee;
+    margin: 0;
+    border: 2px solid ease;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 250px;
+    cursor: pointer;
+}
+
+.box3 {
+    background-color: #eee;
+    margin: 0;
+    border: 2px solid ease;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    width: 250px;
+    cursor: pointer;
+}

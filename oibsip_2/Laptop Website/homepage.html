@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="homepage.css">
+    <style>
+        .button:hover {
+            box-shadow: 0px 10px 10px black;
+        }
+        
+        .dropbtn {
+            padding: 16px;
+            border: none;
+        }
+        
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            padding-top: 5px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 10px 10px black;
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: .5s;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .shop:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <table style="background-color: peachpuff;">
+        <tr style="background-color: peachpuff;">
+            <td>
+                <a href="homepage.html"> <img src="images/icon-removebg-preview.png"></img>
+                </a>
+            </td>
+            <td>
+                <h2 style="width: 150px; font-family: calibri;"> Aapna Bazar</h2>
+            </td>
+            <td style="padding-left: 625px">
+                <div style="padding-top: 5px" ;>
+                    <input type="text" placeholder="Search here..." id="search" style="width: 331px; height: 25px;">
+                </div>
+            </td>
+            <td style="padding-top: 8px; ">
+                <a href="search.html" target="_blank"> <img class="button" src="images/search-removebg-preview.png"></img>
+                </a>
+            </td>
+            <td style="height: 10px; padding-top: 5px;">
+                <a href="search.html" target="_blank"> <img class="button" src="images/cart2-removebg-preview.png"></img>
+                </a>
+
+            </td>
+            <td class="dropdown">
+                <button class="dropbtn" style="background-color: peachpuff;"><img 
+                        src="Images/account-removebg-preview.png" alt="" style="background-color: peachpuff;"></button>
+                <div class="dropdown-content" style="font-family: calibri;">
+                    <a href="login.html">Login</a>
+                    <a href="registration.html">Register</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="#">About Us</a>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+    <table style="background-color: lightblue; height: 40px; width: 1350px; font-family: calibri; ">
+        <tr>
+            <td style=" padding-left: 200px; ">
+                <h2><a href="product.html" target="_blank ">Products</img></a></h2>
+            </td>
+
+            <td style="padding-left: 300px;">
+                <h2><a href="category page.html" target="_blank ">Category</img></a></u>
+                </h2>
+            </td>
+            <td style="padding-left: 300px;">
+                <h2 style="width: 200px; "><a href="contactus.html" target="_blank ">Contact Us</img></a></u>
+                </h2>
+            </td>
+        </tr>
+    </table>
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slides">
+                <div id="slides__1" class="slide">
+                    <span class="slide__text" style="padding-left: 100px;"><img  src="kriimg/1-removebg-preview.png" alt=""></span>
+                    <a class="slide__prev" href="#slides__4" title="Next"></a>
+                    <a class="slide__next" href="#slides__2" title="Next"></a>
+                </div>
+                <div id="slides__2" class="slide">
+                    <span class="slide__text" style="padding-left: 150px;"><img src="kriimg/2-removebg-preview.png" alt=""></span>
+                    <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                    <a class="slide__next" href="#slides__3" title="Next"></a>
+                </div>
+                <div id="slides__3" class="slide">
+                    <span class="slide__text" style="padding-left: 150px;"><img src="kriimg/3-removebg-preview.png" alt=""></span>
+                    <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                    <a class="slide__next" href="#slides__4" title="Next"></a>
+                </div>
+                <div id="slides__4" class="slide">
+                    <span class="slide__text" style="padding-left: 150px;"><img src="kriimg/4-removebg-preview.png" alt=""></span>
+                    <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                    <a class="slide__next" href="#slides__1" title="Prev"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <h2 style="padding-left: 600px; font-family: calibri; ">
+                    <ul>We Provide</ul>
+                </h2>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td style="padding-left: 200px; ">
+                <img src="Images/truck.png "></img>
+            </td>
+            <td style="padding-left: 250px; ">
+                <img src="Images/visa.png "></img>
+            </td>
+            <td style="padding-left: 250px; ">
+                <img src="Images/offer.png "></img>
+            </td>
+            <td style="padding-left: 240px; ">
+                <img src="Images/tools.png "></img>
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td style="padding-left: 190px; font-family: calibri; ">
+                Free Shipping
+            </td>
+            <td style="padding-left: 220px; font-family: calibri; ">
+                Secure Payment
+            </td>
+            <td style="padding-left: 200px; font-family: calibri; ">
+                Exclusive Offer
+            </td>
+            <td style="padding-left: 180px; font-family: calibri; ">
+                Free Installation
+            </td>
+        </tr>
+    </table><br><br>
+
+    <table style="background-color: lightblue; width: 1350px; ">
+        <tr>
+            <td style="padding-left: 50px;">
+                <img src="Images/landscape.png " alt=" ">
+                <td style="width: 1341px; ">
+                    <p><b style="padding-left: 400px; font-family: calibri; ">  XPS LAPTOPS </b></p>
+                    <p><b style="padding-left: 380px; font-family: calibri; ">A Creative Powerhouse</b></p>
+                    <p><b style="padding-left: 280px; font-family: calibri; "> The XPS is perfectly balanced for your passions. Get instant</b></p>
+                    <p><b style="padding-left: 330px; font-family: calibri; ">discounts on Netbanking & No Cost EMI.</b></p>
+                    <p><b style="padding-left: 330px; font-family: calibri; "><a href="# " class="shop " style="font-size: large; padding-left: 80px; ">Shop Now </a> </b></p>
+                </td>
+            </td>
+        </tr>
+
+    </table>
+    <table style="background-color: peachpuff; width: 1350px; ">
+        <tr>
+            <td>
+                <h2 style="padding-left: 620px;font-family: calibri; ">
+                    <ul>Follow Us</ul>
+                </h2>
+            </td>
+        </tr>
+    </table>
+
+    <table style="background-color: peachpuff; width: 1350px; ">
+        <tr>
+            <td style="padding-left: 60px; ">
+                <a href="https://www.facebook.com/ " target="_blank "> <img class="button " src="Images/fb-removebg-preview.png " style="padding-bottom: 4px; "></img>
+                </a>
+            </td>
+            <td style="padding-left: 180px; ">
+                <a href="https://www.instagram.com/ " target="_blank "> <img class="button " src="Images/insta-removebg-preview.png "></img>
+                </a>
+            </td>
+            <td style="padding-left: 180px; ">
+                <a href="https://www.twitter.com/ " target="_blank "> <img class="button " src="Images/twitter-removebg-preview.png "></img>
+                </a>
+            </td>
+            <td style="padding-left: 180px; ">
+                <a href="https://www.youtubecom/ " target="_blank "> <img class="button " src="Images/yt-removebg-preview.png "></img>
+                </a>
+            </td>
+            <td style="padding-left: 180px; ">
+                <a href="https://www.truecaller.com/ " target="_blank "> <img class="button " src="Images/call-removebg-preview.png "></img>
+                </a>
+            </td>
+            <td style="padding-left: 180px; ">
+                <a href="https://www.linkedin.com/ " target="_blank "> <img class="button " src="Images/linkedin-removebg-preview.png "></img>
+                </a>
+            </td>
+    </table>
+</body>
+
+</html>
